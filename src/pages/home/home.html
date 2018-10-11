@@ -1,14 +1,23 @@
+<!--
+  Generated template for the HomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
 <ion-header>
+
   <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+    <ion-title>Test Printer</ion-title>
   </ion-navbar>
+
 </ion-header>
 
+
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<button ion-button round large (click)="pick()">Pick Printer</button>
+<button ion-button round large (click)="print()">Print</button>
+<button full ion-button round large (click)="myToast()">My Toast</button>
+<button full ion-button round large (click)="helloWorld()">Hello World</button>
+<button full ion-button round large color="dark" (click)="testHelloOcom()">OCOM Hello World</button>
+<button full ion-button round large color="danger" (click)="testOcomBtPrint()">BT Test Print</button>
 </ion-content>

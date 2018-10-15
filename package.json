@@ -57,10 +57,9 @@
       "cordova-plugin-ionic-webview": {},
       "cordova-plugin-ionic-keyboard": {},
       "cordova.plugin.mytoast": {},
-      "cordova.plugin.androidtoast": {}
+      "cordova.plugin.androidtoast": {},
+      "cordova.plugin.ocom.btprint": {}
     },
-    "platforms": [
-      "android"
-    ]
+    "platforms": []
   }
 }
